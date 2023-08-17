@@ -2501,6 +2501,7 @@ class ReportGenerator(object):
             header_fields = (
                 "ip",
                 "port",
+                "protocol"
                 "known_exploited",
                 "severity",
                 "initial_detection",
@@ -2519,6 +2520,7 @@ class ReportGenerator(object):
             data_fields = (
                 "ip",
                 "port",
+                "protocol"
                 "kev",
                 "severity",
                 "time_opened",
